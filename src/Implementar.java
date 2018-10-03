@@ -19,7 +19,7 @@ public class Implementar implements Solucion {
                 String vareableX = "";
 
                 for(int O=0; O <= totalDeLetrasO; O++ ){
-                     vareableX =vareableX+"X";
+                     vareableX =vareableX+"x";
                 }
 
                 cadenaRetornada=cadenaRetornada+vareableX;
