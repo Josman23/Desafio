@@ -12,7 +12,12 @@ public class Implementar implements Solucion {
         for(int i=1; i <= entrada.length(); i++){
 
             String letraSustraida=entrada.substring(posicionInicio,i);
-            
+
+            if(letraSustraida == "o" || letraSustraida == "O" ){
+
+            }else{
+
+            }
 
             posicionInicio ++;
         }

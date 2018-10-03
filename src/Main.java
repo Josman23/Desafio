@@ -3,9 +3,8 @@ public class Main {
 
     public static void main(String[] args){
 
-        //Se crea una Instancia de la clase Implementar
-        Implementar implementa= new Implementar();
-        String entrada="hola mundo croel";
+        Implementar implementa= new Implementar(); //Se crea una Instancia de la clase Implementar
+        String entrada="hola mundo croel MOOLE";  // Creamos una variable que contiene la cadena de entrada.
         implementa.convertir(entrada);
     }
 }
