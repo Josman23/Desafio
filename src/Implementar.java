@@ -5,13 +5,12 @@ public class Implementar implements Solucion { //Se implementa la interfaz Soluc
     @Override
     public String convertir(String entrada) { //Implementación del método convertir de la Interfaz Solución
 
-        String cadenaRetornada = ""; //Crea una variable que sirve para almacenar una cadena de texto y retornar la misma, cuando se ejecute el método.
-        int posicionInicioSubstring = 0; //Crea e inicializa una variable en 0. Que sirve como posición de inicio al momento de sustraer un carácter de una cadena de texto.
-        int totalDeLetrasO = 0; //Crea e inicializa una variable en 0. Que sirve como contador de letras “O”
+        String cadenaRetornada = "", letraSustraida= null; //Crea una variable que sirve para almacenar una cadena de texto y retornar la misma, cuando se ejecute el método.
+        int posicionInicioSubstring = 0, totalDeLetrasO = 0; //Crea e inicializa una variable en 0. Que sirve como posición de inicio al momento de sustraer un carácter de una cadena de texto.
 
         for(int i=1; i <= entrada.length(); i++){ //Declaración del ciclo for, El cual se ejecutará dependiendo al total de caracteres de la cadena de entrada.
 
-            String letraSustraida=entrada.substring(posicionInicioSubstring,i); //Sustrae un carácter de una cadena de texto y lo almacena en la variable letraSustraida.
+            letraSustraida=entrada.substring(posicionInicioSubstring,i); //Sustrae un carácter de una cadena de texto y lo almacena en la variable letraSustraida.
 
             if(letraSustraida.equalsIgnoreCase("o")){ //Declara un if que compara la letra sustraída con el carácter “O” mayúscula o minúscula
 
